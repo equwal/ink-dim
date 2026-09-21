@@ -1,0 +1,28 @@
+Ink Dim sets the frontlight below the lowest level of the system.
+
+Tap the icon. The light goes to the lowest level the hardware still lights. Tap
+it again. The light goes back to the level the system holds.
+
+The app has no screen. The icon is the whole app. The value holds across sleep,
+until the system brightness is next set.
+
+The system will not set the frontlight below its own floor, so Ink Dim writes
+the light of the panel straight. That file belongs to the system, so the app
+needs a shell. Shizuku gives it one. Shizuku is a separate free app that you
+start from the device through wireless debugging. There is no computer and no
+root.
+
+There is a quick settings tile, "Extra dim". There are three intent actions, so
+a key remapper can put the toggle on a hardware button:
+dev.equwal.inkdim.TOGGLE, dev.equwal.inkdim.ON and dev.equwal.inkdim.OFF.
+
+A long press on the icon opens a settings screen. It shows the state and the
+steps to set Shizuku up.
+
+Made for the Viwoods AiPaper readers. Other devices can have no light that the
+app knows. Then the settings screen says so.
+
+Ink Dim collects nothing. It has no INTERNET permission, no advertisements and
+no analytics.
+
+Free software, GPL-3.0-or-later.

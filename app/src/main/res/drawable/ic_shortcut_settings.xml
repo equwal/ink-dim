@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The icon of the "Settings" shortcut: three sliders. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:strokeColor="#111111"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:pathData="M4,7 L20,7 M4,12 L20,12 M4,17 L20,17" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#111111"
+        android:strokeWidth="1.6"
+        android:pathData="M7,7a2,2 0 1,0 4,0a2,2 0 1,0 -4,0M13,12a2,2 0 1,0 4,0a2,2 0 1,0 -4,0M9,17a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+</vector>

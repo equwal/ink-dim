@@ -1,0 +1,6 @@
+First release.
+
+Tap the icon to set the frontlight below the lowest level of the system. Tap it
+again for the system level. A quick settings tile, "Extra dim", and the intent
+actions dev.equwal.inkdim.TOGGLE, dev.equwal.inkdim.ON and
+dev.equwal.inkdim.OFF.

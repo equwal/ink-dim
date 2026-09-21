@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A sun with rays, and an arrow down: less light. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#111111"
+        android:strokeWidth="4"
+        android:pathData="M42,42a12,12 0 1,0 24,0a12,12 0 1,0 -24,0" />
+    <path
+        android:strokeColor="#111111"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M54,25 L54,19 M54,59 L54,65 M71,42 L77,42 M37,42 L31,42 M66,30 L70.3,25.7 M42,30 L37.7,25.7 M66,54 L70.3,58.3 M42,54 L37.7,58.3" />
+    <path
+        android:strokeColor="#111111"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M54,70 L54,88 M47,81 L54,88 L61,81" />
+</vector>

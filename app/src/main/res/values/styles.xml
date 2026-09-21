@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        E-ink: light, high contrast, no animation anywhere. No action bar:
+        each screen draws its own title. From Android 15 an app that targets
+        SDK 35 or later is laid out edge to edge, so each screen pads itself
+        for the system bars.
+    -->
+    <style name="Theme.App" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:navigationBarColor">@android:color/white</item>
+    </style>
+
+    <!--
+        The toggle activity. It shows nothing and it goes away by itself.
+        Theme.NoDisplay is not used, because the toggle waits for the shell and
+        finishes later than onResume.
+    -->
+    <style name="Theme.Invisible" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

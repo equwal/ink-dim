@@ -1,0 +1,1 @@
+Sets the frontlight below the lowest level of the system. Tap to toggle.
