@@ -70,6 +70,8 @@ reader or any Android device. It can put this toggle on a hardware button: bind
 the button to the action `dev.equwal.inkdim.TOGGLE`. Rebind is from the same
 maker.
 
+More extensions: [Awesome Rebind](https://github.com/equwal/awesome-rebind).
+
 ## Say thanks
 
 Ink Dim is free and open source. If it made your device better, you can
