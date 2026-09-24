@@ -11,7 +11,11 @@ Made for the Viwoods AiPaper readers.
 
 ## Screenshots
 
-To be added.
+<p>
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="260" alt="Settings: the light, the Shizuku steps, about">
+</p>
+
+The picture is from a Viwoods AiPaper Reader.
 
 ## Why the app needs Shizuku
 
