@@ -59,6 +59,11 @@ class SettingsActivity : Activity() {
         col.row("Licence", null, enabled = false, state = "GPL-3.0-or-later")
         col.row("Source code", REPO.removePrefix("https://")) { start(Intent(Intent.ACTION_VIEW, Uri.parse(REPO))) }
         col.row("Buy me a coffee", TIP.removePrefix("https://")) { start(Intent(Intent.ACTION_VIEW, Uri.parse(TIP))) }
+
+        col.header("More apps")
+        for (app in MoreApps.ALL) {
+            col.row(app.name, app.line) { start(Intent(Intent.ACTION_VIEW, Uri.parse(app.url))) }
+        }
     }
 
     private fun lightState(): String = when {
