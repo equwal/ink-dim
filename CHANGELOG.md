@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+
+- The signed APK has no dependency list for Google in it, so F-Droid can check that its own build is the same.
+
 ## 0.1.1
 
 - The APK is smaller: R8 removes the code that the app does not use.

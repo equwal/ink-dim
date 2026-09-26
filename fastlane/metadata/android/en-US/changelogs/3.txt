@@ -1,0 +1,1 @@
+The signed APK has no dependency list for Google in it, so F-Droid can check that its own build is the same.

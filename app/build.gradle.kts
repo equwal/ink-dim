@@ -21,12 +21,19 @@ android {
     namespace = "dev.equwal.inkdim"
     compileSdk = 36
 
+    // No list of dependencies, encrypted for Google alone, in the signed APK.
+    // F-Droid does not accept it, and it would stop the reproducible build check.
+    dependenciesInfo {
+        includeInApk = false
+        includeInBundle = false
+    }
+
     defaultConfig {
         applicationId = "dev.equwal.inkdim"
         minSdk = 31
         targetSdk = 36
-        versionCode = 2
-        versionName = "0.1.1"
+        versionCode = 3
+        versionName = "0.1.2"
     }
 
     signingConfigs {
