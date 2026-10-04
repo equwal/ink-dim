@@ -9,8 +9,11 @@ until the system brightness is next set.
 The system will not set the frontlight below its own floor, so Ink Dim writes
 the light of the panel straight. That file belongs to the system, so the app
 needs a shell. Shizuku gives it one. Shizuku is a separate free app that you
-start from the device through wireless debugging. There is no computer and no
-root.
+start from the device through wireless debugging. There is no computer.
+
+On a normal phone the shell may not write the light, and the toggle then does
+nothing. The app writes it with `su 0` as a fallback. That works on userdebug
+builds, where the shell user may use `su`, such as the Viwoods readers.
 
 There is a quick settings tile, "Extra dim". There are three intent actions, so
 a key remapper can put the toggle on a hardware button:
