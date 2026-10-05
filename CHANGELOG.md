@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.3
+
+- The app declares the Shizuku provider, so Shizuku can hand it the shell.
+- The description says that the toggle may need `su`.
+
 ## 0.1.2
 
 - The signed APK has no dependency list for Google in it, so F-Droid can check that its own build is the same.
