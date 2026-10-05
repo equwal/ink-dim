@@ -1,0 +1,1 @@
+The app names Shizuku in its package-visibility list, so Android 11 and later let it see Shizuku. The settings screen now offers the permission step, and the toggle runs.

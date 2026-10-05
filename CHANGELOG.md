@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.4
+
+- The app names Shizuku in its package-visibility list. Without it, Android 11
+  and later hid Shizuku from the app, so the settings screen never offered the
+  permission step and the toggle could not run.
+
 ## 0.1.3
 
 - The app declares the Shizuku provider, so Shizuku can hand it the shell.
